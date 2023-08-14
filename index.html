@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Resume</title>
+</head>
+<body class='scale-cv'>
+<!--========== HEADER ==========-->
+<header class="l-header" id="header">
+    <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Yevhen</a>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">
+                        <i class='bx bx-home nav__icon'></i>Home
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#skills" class="nav__link">
+                        <i class='bx bx-receipt nav__icon'></i>Skills
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#language" class="nav__link">
+                        <i class='bx bx-message-rounded-dots nav__icon'></i>Language
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#profile" class="nav__link">
+                        <i class='bx bx-user nav__icon'></i>Summary
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#experience" class="nav__link">
+                        <i class='bx bx-briefcase-alt nav__icon'></i>Experience
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#education" class="nav__link">
+                        <i class='bx bx-book nav__icon'></i>Education
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-grid-alt'></i>
+        </div>
+    </nav>
+</header>
+
+<main class="l-main bd-container">
+    <!-- All elements within this div, is generated in PDF -->
+    <div class="resume" id="area-cv">
+        <div class="resume__left">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container section bd-grid">
+                    <div class="home__data bd-grid">
+                        <img src="img/profile.jpg" alt="" class="home__img">
+
+                        <h1 class="home__title">LOPATIN <b>YEVHEN</b></h1>
+                        <h3 class="home__profession">Software engineer</h3>
+
+                        <div>
+                            <a download="" href="" class="home__button-movil">Download</a>
+                        </div>
+                    </div>
+
+                    <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class='bx bx-map home__icon'></i> Kyiv, Ukraine
+                </span>
+                        <span class="home__information">
+                  <i class='bx bx-envelope home__icon'></i> yevhen.lopatin.work@gmail.com
+                </span>
+                        <span class="home__information">
+                  <i class='bx bx-phone home__icon'></i> +380 67 632-09-32
+                </span>
+                    </div>
+                </div>
+
+                <!-- Theme change button -->
+
+                <!-- Button to generate and download the pdf. Available for desktop. -->
+                <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+            </section>
+
+            <!--========== SOCIAL ==========-->
+            <section class="social section">
+                <h2 class="section-title">SOCIAL</h2>
+
+                <div class="social__container bd-grid">
+                    <a href="www.linkedin.com/in/yevhenlopatin" target="_blank" class="social__link">
+                        <i class='bx bxl-linkedin-square social__icon'></i> @yevhenlopatin
+                    </a>
+                    <a href="https://t.me/yevhen_lopatin" target="_blank" class="social__link">
+                        <i class='bx bxl-telegram social__icon'></i> @yevhen_lopatin
+                    </a>
+                    <a href="https://join.skype.com/invite/doBswWeKdAmR" target="_blank" class="social__link">
+                        <i class='bx bxl-skype social__icon'></i> jeka.lopatin
+                    </a>
+                </div>
+            </section>
+
+            <!--========== SKILLS  ==========-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <li class="skills__name">
+                    <span class="skills__circle"></span> Java as primary language
+                </li>
+
+                <div class="skills__content bd-grid">
+                    <ul class="skills__data">
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> Spring
+                        </li>
+                    </ul>
+                    <ul class="skills__data">
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> Spring Boot
+                        </li>
+                    </ul>
+                </div>
+
+                <li class="skills__name">
+                    <span class="skills__circle"></span> Java EE(JDBC, JPA, REST, SOAP, Logger, CDI, IoC)
+                </li>
+
+                <li class="skills__name">
+                    <span class="skills__circle"></span> AWS(Lambda, EC2, RDS, DynamoDB, S3, SNS, SQS)
+                </li>
+
+                <div class="skills__content bd-grid">
+                    <ul class="skills__data">
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> MySQL
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> Hibernate
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> ActiveMq
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> Gradle
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> OOP
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> Design patterns
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> Junit
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> TDD
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> GitlabCi
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> Html
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> Node.js
+                        </li>
+                    </ul>
+
+                    <ul class="skills__data">
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> PostgreSQL
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> Redis
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> Azure SB
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> Maven
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> OOD
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> Agile
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> Mockito
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> Log4j
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> Docker
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> Css
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> React.js
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--========== LANGUAGES ==========-->
+            <section class="languages section" id="language">
+                <h2 class="section-title">Languages</h2>
+
+                <div class="languages__container">
+                    <ul class="languages__content ">
+                        <li class="languages__name">
+                            <span class="languages__circle"></span> English – Upper-Intermediate
+                        </li>
+                        <li class="languages__name">
+                            <span class="languages__circle"></span> Ukrainian – Native
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+
+        <div class="resume__right">
+            <!--========== PROFILE ==========-->
+            <section class="profile section" id="profile">
+                <h2 class="section-title">Summary</h2>
+
+                <p class="profile__description">
+                    A results-oriented, hardworking individual with 5 years of experience as a Java developer, driven to
+                    meet or exceed company expectations and deliver high-quality software products. Experienced in
+                    writing efficient production-ready code according to design, with unit and integration tests, as
+                    well as troubleshooting, debugging, and upgrading existing software. Proficient in integrating
+                    software components and third-party programs.
+                </p>
+                <p class="profile__description">
+                    I am a cooperative, positive, open-minded, and flexible person with good analytical and logical
+                    thinking skills. I can work effectively in critical situations and consistently achieve project
+                    goals.
+                </p>
+            </section>
+
+            <!--========== EXPERIENCE ==========-->
+            <section class="experience section" id="experience">
+                <h2 class="section-title">Experience</h2>
+
+                <div class="experience__container bd-grid">
+                    <div class="experience__content">
+                        <div class="experience__time">
+                            <span class="experience__rounder"></span>
+                            <span class="experience__line"></span>
+                        </div>
+
+                        <div class="experience__data bd-grid">
+                            <h3 class="experience__title"><b>FOLLET</b> | SOFTWARE ENGINEER</h3>
+                            <span class="experience__company">March 2023 - August 2023</span>
+                            <p class="experience__description">A company that provides a variety of educational products to schools, colleges, and public libraries through its subsidiaries. I was involved in architectural changes of their modules</p>
+                            <p class="experience__description">Technology Stack: Java EE, ActiveMQ, Azure Service Bus, Hibernate, Microsoft SQL Server, WildFly, Maven</p>
+                            <ul class="requirements__data">
+                                <li class="requirements__name">
+                                    <div><span class="requirements__circle"></span> Upgraded significant modules from hibernate 3 to hibernate 5, improving overall database access and data management</div>
+                                </li>
+                                <li class="requirements__name">
+                                    <div><span class="requirements__circle"></span> Completed the migration from JMS 1.0 and ActiveMQ to JMS 2.0 and Azure Service Bus, enhancing the messaging infrastructure for seamless communication between projects</div>
+                                </li>
+                                <li class="requirements__name">
+                                    <div><span class="requirements__circle"></span> Implemented new JMS topics and queues, optimizing the messaging pathways within the projects, resulting in more streamlined and reliable data flow</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="experience__content">
+                        <div class="experience__time">
+                            <span class="experience__rounder"></span>
+                            <span class="experience__line"></span>
+                        </div>
+
+                        <div class="experience__data bd-grid">
+                            <h3 class="experience__title"><b>SEMA4</b> | SOFTWARE ENGINEER</h3>
+                            <span class="experience__company">January 2020 - March 2023</span>
+                            <p class="experience__description">A leading healthcare platform focused on collecting vital data from clinic patients for enhanced disease diagnosis, it provides a holistic view of diseases, individual health, and overall well-being.</p>
+                            <p class="experience__description">Technology Stack: AWS (Lambda, EC2, RDS, DynamoDB, S3, CloudWatch, SNS, SQS), Spring Boot, Serverless, MySQL, PostgreSQL, Hibernate, Flyway, GitLab CI, Gradle</p>
+                            <ul class="requirements__data">
+                                <li class="requirements__name">
+                                    <div><span class="requirements__circle"></span> Implemented new features across various web servers, Lambdas, and databases, enriching the platform's functionality and user experience.</div>
+                                </li>
+                                <li class="requirements__name">
+                                    <div><span class="requirements__circle"></span> Developed diverse endpoints for seamless integration of AWS components, including S3, SQS, SNS, and Lambdas</div>
+                                </li>
+                                <li class="requirements__name">
+                                    <div><span class="requirements__circle"></span> Contributed to architectural decisions for new modules.</div>
+                                </li>
+                                <li class="requirements__name">
+                                    <div><span class="requirements__circle"></span> Actively participated in the identification and resolution of platform's bugs and defects</div>
+                                </li>
+                                <li class="requirements__name">
+                                    <div><span class="requirements__circle"></span> Wrote comprehensive test cases, ensuring the quality and stability of the software.</div>
+                                </li>
+                                <li class="requirements__name">
+                                    <div><span class="requirements__circle"></span> Authored SQL migration scripts.</div>
+                                </li>
+                                <li class="requirements__name">
+                                    <div><span class="requirements__circle"></span> Created a script that extracts user data from Azure Active Directory, seamlessly populating our internal database.</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="experience__content">
+                        <div class="experience__time">
+                            <span class="experience__rounder"></span>
+                           <!-- <span class="experience__line"></span>-->
+                        </div>
+
+                        <div class="experience__data bd-grid">
+                            <h3 class="experience__title"><b>TDU SERVICE</b> | SOFTWARE ENGINEER</h3>
+                            <span class="experience__company">November 2018 - January 2020</span>
+                            <p class="experience__description">A company specializing in modern telecommunication, corporate systems, and multimedia solutions. Our primary client was the largest telecommunications company in Ukraine. As part of our projects, we worked  on a new Interactive Voice Response (IVR) system.</p>
+                            <ul class="requirements__data">
+                                <li class="requirements__name">
+                                    <div><span class="requirements__circle"></span> Developed enterprise service bus which consumes soap web services and exposes as rest api. Stack: Spring Web services, Apache camel, Jackson(JSON), Apache cxf, Redis, Spring Actuator, Logback, Micrometer, Maven;</div>
+                                </li>
+                                <li class="requirements__name">
+                                    <div><span class="requirements__circle"></span> Created database for dictionaries and developed web application for database editing. Stack: Spring data rest, PostgreSQL, Vue.js;</div>
+                                </li>
+                                <li class="requirements__name">
+                                    <div><span class="requirements__circle"></span> Created decision trees and wrote scripts in Sestek(Conversational AI).</div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--========== EDUCATION ==========-->
+            <section class="education section" id="education">
+                <h2 class="section-title">Education</h2>
+
+                <div class="education__container bd-grid">
+                    <div class="education__content">
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+
+                        <div class="education__data bd-grid">
+                            <h3 class="education__title">Master of Software Engineering</h3>
+                            <span class="education__studies">“Igor Sikorsky Kyiv
+                                Polytechnic Institute”, Faculty of Informatics and Computer Science, Department of
+                                Computer Engineering</span>
+                            <span class="education__year">2018 - 2020</span>
+                        </div>
+                    </div>
+
+                    <div class="education__content">
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+
+                        <div class="education__data bd-grid">
+                            <h3 class="education__title">Bachelor of Computer Engineering</h3>
+                            <span class="education__studies">“Igor Sikorsky Kyiv
+                                Polytechnic Institute”, Faculty of Informatics and Computer Science, Department of
+                                Computer Engineering</span>
+                            <span class="education__year">2014 - 2018</span>
+                        </div>
+                    </div>
+
+                    <div class="education__content">
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                           <!-- <span class="education__line"></span>-->
+                        </div>
+
+                        <div class="education__data bd-grid">
+                            <h3 class="education__title">High School Diploma</h3>
+                            <span class="education__studies">Dnipro Scientific Lyceum of Information Technologies
+                                (LIT)</span>
+                            <span class="education__year">2010 - 2014</span>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+    </div>
+</main>
+
+<!--========== SCROLL TOP ==========-->
+<a href="#" class="scrolltop" id="scroll-top">
+    <i class='bx bx-up-arrow-alt scrolltop__icon' ></i>
+</a>
+
+<!--========== HTML2PDF ==========-->
+<script src="js/js_master_dist_html2pdf.bundle.min.js"></script>
+
+<!--========== MAIN JS ==========-->
+<script src="js/main.js"></script>
+</body>
+</html>
